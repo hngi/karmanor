@@ -49,71 +49,29 @@ html, body {
 .description-texts {
     height: 100%;
     background-color: #F1F1F1;
+    font-family: 'Raleway', sans-serif;
+}
+
+.row.left-inner-box-row {
+    margin-top: 30%;
 }
 
 .left-title {
     margin: 20px;
-    color: #ff5111;
-}
-
-.left-text {
-    text-align: center;
-    position: absolute;
-    left: 10%;
-    margin-left: -10px;
-    top: 40%;
-    margin-top: -40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
 .result-left-text {
     text-align: center;
-    position: absolute;
-    left: 23%;
-    margin-left: -50px;
-    top: 35%;
-}
-
-.left-text h1 {
-    font-size: 50px;
 }
 
 .left-text-h1 {
     font-size: 80px;
-    color: #ff5111;
 }
 
-.per-day {
-    color: #FD936C;
-}
-
-.right-side {
-    background-color: #FD936C;
-    padding: 5% 0 0 10%;
-}
-
-.right-side h3 {
-    color: #fff;
-}
-
-.btn-circle {
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  text-align: center;
-  padding: 0;
-  border-radius: 50%;
-}
-
-.btn-circle i {
-    position: relative;
-    top: -1px;
-    color: #ff5111
-}
-
-.app-names span {
-    position: absolute;
-    font-size: 10px;
-    margin: 12px 0 0 10px;
+.left-text-h1-2 {
+    font-size: 60px;
 }
 
 .clear-btn {
@@ -123,27 +81,53 @@ html, body {
     color: #fff;
 }
 
-.calc-btn {
-    background-color: #ff5111;
+.right-side {
+    background: linear-gradient(112.84deg, #FDEA02 0%, #FEBA01 66.82%);
+    padding: 5% 0 0 0;
 }
 
-.calc-btn:hover, .calc-btn:active {
-    background-color: #FF4500;
-}
-
-.clear-btn a {
-    text-decoration: none;
+.right-side h3 {
     color: #fff;
 }
 
-.clear-btn a:hover, .clear-btn a:active {
-    color: #e8e6e6;
+.btn-circle {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
 }
 
-@media screen and (max-device-width: 480px) {
-  .new-test {
-    font-size: 5px;
-  }
+.btn-circle-sm {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 0.9rem;
+}
+
+.btn-circle i {
+    position: relative;
+    top: -1px;
+}
+
+.add-btn {
+    border-radius: 35px;
+}
+
+.reset-btn {
+    margin-left: 32%;
+}
+
+.submit-btn {
+    background-color: #000;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.submit-btn:hover, .submit-btn:active {
+    background-color: transparent;
+    color: #000;
 }
 
 
