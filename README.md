@@ -4,7 +4,7 @@
 
 ### Instructions
 
-- Hosted version can be found at [link](https://karmanor-solar-calc.000webhostapp.com/ "karmanor")
+- Hosted version can be found at [link](https://hngi.github.io/karmanor/   "karmanor")
 
 * To open the project locally, simply open the > index.html.
 
