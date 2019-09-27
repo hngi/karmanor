@@ -63,7 +63,7 @@ function addAppliance(e) {
                 </div>`;
   //create div
   let div = document.createElement("div");
-  div.className = "row";
+  div.classList = "row animated bounceInDown";
   div.innerHTML = markUp;
   form.appendChild(div);
   e.preventDefault();
@@ -78,7 +78,7 @@ function removeAppliance(e) {
 
 //Clear
 function reset() {
-  window.location.href = "index.html";
+  window.location.href = "calculator.html";
 }
 
 function getUnits() {
@@ -152,7 +152,7 @@ function calculate(e) {
   }
   //diplay in the ui
   let markUp = `<div class="header"><h1 class="header__logo">
-                   <a href="/index.html"><img src="./img/logo.svg" alt="logo"/></a>
+                   <a href="/index.html"><img src="../img/logo.svg" alt="logo"/></a>
                 </div>
                 <div class="main__left-content">
                 <h1 class="header__primary">Your result is <span>${readingPerMonth} kwh</span></h1>
