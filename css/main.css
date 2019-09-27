@@ -81,6 +81,7 @@ input {
   margin-top: 0.3rem;
 }
 .primary__btn {
+  display: inline-block;
   padding: 1rem 2rem;
   font-size: 1.5rem;
   background: black;
@@ -124,7 +125,8 @@ input {
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: 0.2rem;
-  margin: 2rem 0 0 1rem;
+  /* margin: 2rem 0 0 1rem; */
+  margin-left: 1rem;
 }
 .main__left-content {
   display: flex;
@@ -145,6 +147,16 @@ input {
   margin-bottom: 0.5rem;
 }
 
+/* Landing Page */
+.landing-page {
+  background: linear-gradient(115deg, #fdea02, #feba01);
+  background-position: top;
+  height: 100vh;
+}
+.content-center {
+  margin: 35vh 0;
+  transform: translateY(-50%);
+}
 /* Responsive */
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 1023px) {
@@ -209,7 +221,7 @@ input {
     background: black;
     color: white;
     letter-spacing: 0.2rem;
-    margin-top: 0rem;
+    margin-top: 2rem;
     margin-left: 50%;
     transform: translateX(-50%);
     cursor: pointer;

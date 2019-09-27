@@ -4,6 +4,7 @@ const form = document.querySelector("#calc-form");
 const resetButton = document.querySelector("#reset");
 const calculateButton = document.querySelector("#calculate");
 const result = document.querySelector(".main__left");
+const inputArray = Array.from(form.getElementsByTagName("input"));
 
 //Global Declarations
 let units = [];
@@ -11,12 +12,33 @@ let hours = [];
 // console.log(unitValues);
 //Event Listeners
 
+// console.log(form.getElementsByTagName("input"));
+// const inputArray = Array.from(form.getElementsByTagName("input"));
+
+// let inputValues = inputArray.map(inputValue => inputValue.value);
+// console.log(inputValues);
+
+inputArray.forEach(input =>
+  input.value === ""
+    ? (calculateButton.disabled = true)
+    : (calculateButton.disabled = false)
+);
+
 loadEventListeners();
 function loadEventListeners() {
   addApplianceButton.addEventListener("click", addAppliance);
   form.addEventListener("click", removeAppliance);
   resetButton.addEventListener("click", reset);
   calculateButton.addEventListener("click", calculate);
+  form.addEventListener("keyup", validateButton);
+}
+
+function validateButton() {
+  inputArray.forEach(input =>
+    input.value === ""
+      ? (calculateButton.disabled = true)
+      : (calculateButton.disabled = false)
+  );
 }
 
 function addAppliance(e) {
@@ -56,7 +78,7 @@ function removeAppliance(e) {
 
 //Clear
 function reset() {
-  window.location.href = "index.html";
+  window.location.href = "calculator.html";
 }
 
 function getUnits() {
@@ -75,7 +97,7 @@ function getUnits() {
     }
 
     units.push(unitValue);
-    console.log(units);
+    // console.log(units);
     unitValue = "";
   });
 }
@@ -111,7 +133,7 @@ function getHours() {
 // }
 
 //Calculate Solar
-function calculate(e, url) {
+function calculate(e) {
   //call get hour and get unit functions
   getHours();
   getUnits();
@@ -122,20 +144,21 @@ function calculate(e, url) {
 
   const totalWattHour = wattHourArray.reduce((acc, val) => acc + val, 0);
   let readingPerMonth = Math.round((totalWattHour / 1000) * 30).toString();
-  console.log(readingPerMonth);
+  // console.log(readingPerMonth);
 
   if (readingPerMonth === "0" || readingPerMonth === "NaN") {
     readingPerMonth = "";
     return;
   }
   //diplay in the ui
-  let markUp = `<div class="header"><h1 class="header__logo">KARMA</h1></div>
+  let markUp = `<div class="header"><h1 class="header__logo">
+                   <a href="/index.html"><img src="./img/logo.svg" alt="logo"/></a>
+                </div>
                 <div class="main__left-content">
                 <h1 class="header__primary">Your result is <span>${readingPerMonth} kwh</span></h1>
                 <p class="header__secondary">
                      per month
                  </p>
-                
                 </div>`;
   let div = document.createElement("div");
   result.innerHTML = "";
