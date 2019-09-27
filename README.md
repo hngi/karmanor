@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Karmanor](https://res.cloudinary.com/cryptonerd/image/upload/v1569590471/Screenshot_2019-09-27_at_2.15.17_PM_bkqrbn.png)
+![Karmanor](https://res.cloudinary.com/cryptonerd/image/upload/v1569592536/group_1_nuebm2.png)
 
 
 </div>
