@@ -1,4 +1,13 @@
-# Team Karmanor form HNG Internship 6.0
+[![Build Status](https://travis-ci.org/thecryptonerd/karmanor-goal-tracker.svg?branch=master)]
+
+<div align="center">
+
+![Karmanor](https://res.cloudinary.com/cryptonerd/image/upload/v1569590471/Screenshot_2019-09-27_at_2.15.17_PM_bkqrbn.png)
+
+
+</div>
+
+# Team Karmanor HNG Internship 6.0
 
 ## HNG6.0 Task 3: Solar Calculator
 
