@@ -78,7 +78,7 @@ function removeAppliance(e) {
 
 //Clear
 function reset() {
-  window.location.href = "calculator.html";
+  window.location.href = "index.html";
 }
 
 function getUnits() {
