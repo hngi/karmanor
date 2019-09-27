@@ -1,10 +1,19 @@
-# Team Karmanor form HNG Internship 6.0
+[![Build Status](https://travis-ci.org/thecryptonerd/karmanor-goal-tracker.svg?branch=master)]
+
+<div align="center">
+
+![Karmanor](https://res.cloudinary.com/cryptonerd/image/upload/v1569592536/group_1_nuebm2.png)
+
+
+</div>
+
+# Team Karmanor HNG Internship 6.0
 
 ## HNG6.0 Task 3: Solar Calculator
 
 ### Instructions
 
-- Hosted version can be found at [link](https://karmanor-solar-calc.000webhostapp.com/ "karmanor")
+- Hosted version can be found at [link](https://hngi.github.io/karmanor/   "karmanor")
 
 * To open the project locally, simply open the > index.html.
 
