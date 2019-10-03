@@ -162,6 +162,7 @@ async function addAppliance(e) {
                   <a href="#" class="delete" id="clear"
                     ><i class="fas fa-minus-circle fa-2x m-t-small"></i
                   ></a>
+
                 </div>
                 </div>`
   );
@@ -185,6 +186,7 @@ async function addAppliance(e) {
       document.querySelector(`[name=hour${c}]`).value = 1;
     });
   });
+
 }
 
 //Remove Appliance
@@ -264,12 +266,14 @@ function calculate(e) {
   }
 
   //diplay in the ui
+
   let markUp = `
                  <h1 class="header__primary">Your result is <span>${readingPerMonth} kwh</span></h1>
                  <p class="header__secondary">
                       per month
                   </p>
                `;
+
   let div = document.createElement("div");
   result.innerHTML = "";
   div.innerHTML = markUp;
