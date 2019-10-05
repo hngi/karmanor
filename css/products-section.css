@@ -68,7 +68,7 @@ li {
   margin: 0 auto;
 }
 .banner {
-  background-image: url("/img/banner.jpg");
+  background-image: url("https://res.cloudinary.com/ayokunleao-com/image/upload/v1570316128/banner_attcid.jpg");
   background-position: top;
   background-size: contain;
   height: 30rem;
@@ -169,7 +169,7 @@ li {
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .banner {
-    background-image: url("/img/banner.jpg");
+    background-image: url("https://res.cloudinary.com/ayokunleao-com/image/upload/v1570316128/banner_attcid.jpg");
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
