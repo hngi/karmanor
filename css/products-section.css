@@ -137,7 +137,7 @@ li {
   .section-right {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: initial;
     margin: 1rem auto;
   }
   .banner {
@@ -145,9 +145,10 @@ li {
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
+    height: 20rem;
   }
   .content {
-    margin-top: -9rem;
+    margin-top: 1rem;
     padding: 1rem;
     font-size: 1.2rem;
     text-align: center;
