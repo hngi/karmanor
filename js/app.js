@@ -256,6 +256,10 @@ function calculate(e) {
   const totalWattHour = wattHourArray.reduce((acc, val) => acc + val, 0);
   let readingPerMonth = Math.round((totalWattHour / 1000) * 30).toString();
 
+  let costsavings = Math.round(((totalWattHour/1000)*30)*25).toString();
+  // costsavings per month accoring to the NERC average rates accross the country
+
+
   if (readingPerMonth === "0" || readingPerMonth === "NaN") {
     let markUp = `<h1 class="header__primary">Please Select an <span> Appliance</span></h1>`;
     let div = document.createElement("div");
@@ -272,7 +276,9 @@ function calculate(e) {
                  <p class="header__secondary">
                       per month
                   </p>
+  <h1 class = "first_header"> Your Cost Savings Per Month is:  <span>  &#8358;${costsavings} </span> </h1>
                `;
+
 
   let div = document.createElement("div");
   result.innerHTML = "";

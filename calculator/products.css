@@ -1,0 +1,215 @@
+.WebContainer{
+  width: 100%;
+  height: auto;
+}
+.articles{
+  width:90%; /*Takes 90% width from WebContainer*/
+  height: auto;
+  margin: auto;
+} 
+
+body{
+  width: 774px;
+  height: 100px;
+}
+
+.left{
+    /* Rectangle */
+
+position: absolute;
+width: 332px;
+height: 1024px;
+left: 46px;
+top: 0px;
+
+ /*background: url(https://www.figma.com/file/C2bzVkRXUumQVW7QNyRw7m/Products-and-Services-Page?node-id=3%3A1) */
+
+ background: radial-gradient(50% 50% at 50.03% 100%, #FFB700 0%, rgba(255, 255, 255, 0) 100%), #FDEA02;
+}
+
+.logo{
+  /* Group 2 */
+
+position: absolute;
+width: 250px;
+height: 73px;
+left: 41px;
+top: 18px;
+
+background: radial-gradient(50% 50% at 56.53% 0.43%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%), url(group_1.png);
+border-radius: 5px;
+}
+
+
+.right{
+    
+position: absolute;
+width: 994px;
+height: 1024px;
+left: 446px;
+top: 0px;
+}
+
+.banner{
+   /* solar-energy-advantages-and-disadvantages-social-696x364 */
+position: center;
+width: 800px;
+height: 410px;
+left: 350px;
+top: 45px;
+margin: 20px 0px 30px;
+
+background: url(solar-energy-advantages-and-disadvantages-social-696x364.jpg);
+    }
+
+p{
+position: absolute;
+width: 800px;
+height: 384px;
+left: 450px;
+top: 450px;
+
+margin: 25px 0px 30px;
+
+font-family: Romantic;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 161.1%;
+/* or 42px */
+text-align: justify;
+letter-spacing: -0.05em;
+text-indent: 11px;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+ol{/* CONSULTATION MAINTENANCE INSTALLATION training SAFETY */
+
+position: absolute;
+width: 336px;
+height: 398px;
+left: 59px;
+top: 393px;
+
+font-family: Romantic;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 161.1%;
+/* or 48px */
+letter-spacing: -0.05em;
+text-indent: 11px;
+text-transform: uppercase;
+}
+
+b{
+    /* PRODUCTS & SERVICES */
+
+position: absolute;
+width: 270px;
+height: 96px;
+left: 59px;
+top: 234px;
+
+font-family: Rakkas;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 38px;
+letter-spacing: -0.025em;
+text-indent: 11px;
+text-transform: uppercase;
+}
+
+ .calculator{
+    /* CALCULATOR */
+
+position: absolute;
+width: 290px;
+height: 73px;
+left: 500px;
+top: 942px;
+
+font-family: Rakkas;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 152.1%;
+/* or 38px */
+text-align: center;
+letter-spacing: -0.07em;
+text-indent: 10px;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.about{
+    /* ABOUT */
+
+position: absolute;
+width: 210px;
+height: 96px;
+left: 750px;
+top: 942px;
+
+font-family: Rakkas;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 152.1%;
+/* or 38px */
+text-align: center;
+letter-spacing: -0.07em;
+text-indent: 10px;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.home{
+    /* CONTACT */
+
+position: absolute;
+width: 194px;
+height: 51px;
+left: 950px;
+top: 939px;
+
+font-family: Rakkas;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 152.1%;
+/* or 38px */
+text-align: center;
+letter-spacing: -0.07em;
+text-indent: 10px;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+a.l{
+  text-align: center;
+  text-decoration: none;
+  color:#FFB700;
+}
+a.l:hover{
+  color: #000000;
+}
+
+a{
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  
+}
+
+a:hover{
+  color: #FFB700;
+}
+}
